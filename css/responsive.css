@@ -1,0 +1,113 @@
+@media(min-width:992px) and (max-width:1199.98px){
+    .banner_items {
+        height: 500px;
+    }
+    .banner_content h1 {
+        font-size: 60px;
+        letter-spacing: 12px;
+    }
+    .section_header span {
+  	 font-size: 14px;
+     line-height: 24px;
+     color: #7e8287;
+     font-weight: 400;
+   }
+   .work-overlay {
+   	padding: 20px 20px;
+  }
+  .work-overlay h3 {
+	font-size: 14px;
+	padding-bottom: 4px;
+  }
+  .work-overlay p {
+	line-height: 17px;
+  }
+
+}
+@media(min-width:768px) and (max-width:991.98px){
+
+    .banner_items {
+        height: 400px;
+    }
+    .banner_content h1 {
+        font-size: 55px;
+        letter-spacing: 8px;
+    }
+    .section_header span {
+  	 font-size: 14px;
+     line-height: 24px;
+     color: #7e8287;
+     font-weight: 400;
+   }
+   .about_items_border:nth-child(2){
+     border-right: none;
+   }
+
+}
+@media(min-width:576px) and (max-width:767.98px){
+    #mynav ul li a {
+     padding: 15px 0px;
+    }
+    .banner_items {
+        height: 400px;
+    }
+    .banner_content h1 {
+        font-size: 40px;
+        letter-spacing: 8px;
+    }
+    .section_header span {
+  	 font-size: 14px;
+     line-height: 24px;
+     color: #7e8287;
+     font-weight: 400;
+   }
+   .about_items_border:nth-child(2){
+     border-right: none;
+   }
+   .work-overlay {
+   	padding: 20px 25px;
+  }
+  .work-overlay h3 {
+	font-size: 14px;
+	padding-bottom: 4px;
+  }
+  .work-overlay p {
+	line-height: 24px;
+  }
+}
+@media(max-width:575.98px){
+     #mynav ul li a {
+     padding: 15px 0px;
+    }
+    .banner_items {
+        height: 300px;
+    }
+    .banner_content h1 {
+        font-size: 36px;
+        letter-spacing: 5px;
+    }
+    .banner_content p,
+    .banner_content img,
+    .banner_content h4{
+        display: none;
+    }
+    .banner_content a{
+    	padding: 5px 30px;
+    }
+    .about_items {
+    	padding: 0px 100px;
+    }
+    .about_items_border {
+      border-right: 0;
+      margin-top: 20px;
+    }
+    .section_header span {
+  	 font-size: 14px;
+     line-height: 24px;
+     color: #7e8287;
+     font-weight: 400;
+   }
+   .work-overlay {
+   	padding: 150px 25px;
+  }
+}
